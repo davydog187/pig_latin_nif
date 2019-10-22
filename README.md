@@ -1,21 +1,9 @@
-# PigLatinNif
+# PigLatinNIF
 
-**TODO: Add description**
+An example Elixir NIF that converts strings to Pig Latin form in Rust.
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `pig_latin_nif` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:pig_latin_nif, "~> 0.1.0"}
-  ]
-end
-```
+This example was created for the NYC Elixir meetup on 10/22/2019.
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/pig_latin_nif](https://hexdocs.pm/pig_latin_nif).
-
