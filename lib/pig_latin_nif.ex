@@ -1,18 +1,7 @@
-defmodule PigLatinNif do
-  @moduledoc """
-  Documentation for PigLatinNif.
-  """
+defmodule PigLatinNIF do
+  use Rustler, otp_app: :pig_latin_nif, crate: "pig_latin_nif"
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> PigLatinNif.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  def translate(_word) do
+    :erlang.nif_error(:nif_not_loaded)
   end
 end
